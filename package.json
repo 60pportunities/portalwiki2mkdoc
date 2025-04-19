@@ -1,0 +1,31 @@
+{
+  "name": "portalwiki2mkdocs",
+  "description": "Lists all InnerSource projects at your company in an interactive and easy to use portal",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "node postinstall",
+    "start": "http-server . -p8080 -c-1 -o index.html",
+    "server": "node server.js"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "fs-extra": "^9.1.0",
+    "handlebars": "^4.7.6",
+    "http-server": "^14.1.1",
+    "material-icons": "^0.3.1",
+    "materialize-css": "^1.0.0",
+    "moment": "^2.29.0",
+    "seedrandom": "^3.0.5"
+  },
+  "licenses": [
+    {
+      "name": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "express": "^4.21.2",
+    "lint": "^1.1.2"
+  }
+}
