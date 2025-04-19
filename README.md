@@ -7,7 +7,7 @@ Requisitos
 
 - [x] Instale o nodejs.
 - [x] npm install
-- [x] Executar o portal do projeto em um servidor web local (npm start)
+- [x] Executar o portal do projeto em um servidor web local (npm start ou npm run server)
 
 ## Listando Projetos
 Adicionar seu projeto a este portal é tão fácil quanto adicionar o inner-source tópico ao seu repositório. 
@@ -31,6 +31,7 @@ A figura abaixo mostra o relacionamento entre rastreador, portal e repositórios
 Assumimos que os repositórios estão localizados em uma ou mais instâncias do GitHub e usam a API do GitHub para buscar metadados do repositório. 
 
 Se estiver usando um sistema de gerenciamento de código-fonte diferente, você pode preencher a estrutura descrita abaixo com os dados disponíveis desse sistema.
+
 ```mermaid
 flowchart LR
     A(Contribuição) -- Projetos ----> B@{ shape: docs, label: "Repositórios</br>Contribuição"}
